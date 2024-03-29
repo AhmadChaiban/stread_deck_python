@@ -6,7 +6,7 @@ from googletrans import Translator
 def notify(title, text):
     os.system(f"osascript -e 'display notification \"{title}\" with title \"{text}\"'")
 
-
+# pip install googletrans==3.1.0a0
 
 pb = NSPasteboard.generalPasteboard()
 pbstring = pb.stringForType_(NSStringPboardType)
