@@ -1,1 +1,1 @@
-# stread_deck_python
+# stream_deck_python
